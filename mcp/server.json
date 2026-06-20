@@ -1,0 +1,9 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.neta08-svg/encodekit",
+  "description": "Encode/decode or hash a string (base64, url, hex, html entities, md5, sha1/256/512, jwt decode).",
+  "version": "1.0.0",
+  "packages": [
+    { "registryType": "npm", "identifier": "encodekit-mcp", "version": "1.0.0", "transport": { "type": "stdio" } }
+  ]
+}
