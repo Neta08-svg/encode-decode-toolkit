@@ -2,6 +2,35 @@
   "name": "encodekit-mcp",
   "version": "1.0.0",
   "type": "module",
-  "private": true,
-  "dependencies": { "@modelcontextprotocol/sdk": "latest", "zod": "^3" }
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.23.0"
+  },
+  "description": "MCP server for encode/decode and hashing (base64, url, hex, md5, sha, jwt).",
+  "bin": {
+    "encodekit-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "server.json",
+    "README.md"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neta08-svg/encode-decode-toolkit.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "modelcontextprotocol",
+    "base64",
+    "hash",
+    "sha256",
+    "jwt",
+    "encode"
+  ]
 }
